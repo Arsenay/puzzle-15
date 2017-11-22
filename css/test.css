@@ -1,0 +1,26 @@
+.five {
+	width: 240px;
+	height: 240px;
+	border: 1px double red;
+	display: inline-block;
+}
+
+.elem_n {
+	margin: 5px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	vertical-align: top;
+	background: yellow;
+	border: 1px solid blue;
+	border-radius: 4px;
+	width: calc(25% - 10px);
+	height: calc(25% - 10px);
+	box-sizing: border-box;
+}
+
+.empty {
+	background: none;
+	border: none;
+}
